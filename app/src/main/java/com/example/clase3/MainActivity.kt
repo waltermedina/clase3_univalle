@@ -59,7 +59,6 @@ class MainActivity : AppCompatActivity() {
         binding.rbStart.setOnRatingBarChangeListener { _, rating, _ ->
             binding.tvData.text = "Tu calificación es: ${rating}"
         }
-
     }
 
     private fun irAWebView(){
@@ -68,7 +67,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-
 
     private fun irASearchView(){
         binding.btnSearchView.setOnClickListener {

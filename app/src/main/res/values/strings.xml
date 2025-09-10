@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Clase3</string>
+    <string name="webview">WebView</string>
 </resources>
